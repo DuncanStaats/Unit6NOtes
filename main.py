@@ -53,6 +53,13 @@ print(first_three)
 first_three = name[0:3] # start at index 0, go up to but not inculde 3
 print(first_three)
 
+def sandwich(string):
+	string_1 = string[0]
+	string_2 = string[-1]
+	smooshed = f"{string_1}{string_2}"
+	return smooshed
+	
+print(sandwich("pbj"))
 # format
 # string_name[start:stop:step] - none are technically required
 
@@ -69,3 +76,4 @@ word = word_one[:-6]
 print(word)
 
 #HW for lesson 2, 7.2.6 - 7.2.8
+
