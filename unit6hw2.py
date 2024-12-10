@@ -1,4 +1,5 @@
-def isInteger()
+def isInteger():
+    
 
 print(isInteger("123"))        
 print(isInteger("   -456  "))  
